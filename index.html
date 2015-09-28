@@ -9,18 +9,53 @@
 		<title>Martin's Work-in-progress Webpage</title>
 		
 		<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-	</head>
-	<body>
-		<h1>Resting place for coders</h1>
-		<div class="row">
-			<div class="col-md-1">Length 1</div>
-			<div class="col-md-10">Length 10</div>
-			<div class="col-md-1">Length 1</div>
-		</div>
-		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<ul class="nav nav-pills">
+				<li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+				<li><a data-toggle="pill" href="#EnghackW"></a>Enghack Winter</li>
+				<li><a data-toggle="pill" href="#EnghackS"></a>Enghack Spring</li>
+				<li><a data-toggle="pill" href="#WARG"></a>UWARG</li>
+				<li><a data-toggle="pill" href="#DFTT"></a>DFTT</li>
+
+			</ul>
+			<div class="tab-content">
+				<div id="home" class="tab-pane fade in active">
+					<div class="jumbotron">
+						<h3>Welcome</h3>
+					</div>
+					<div class="row">
+						<div class="col-md-4"><p>Martin Wong</p></div>
+						<div class="col-md-4"><p>Summary</p></div>
+						<div class="col-md-4"><p>Hobbies</p></div>
+					</div>
+				</div>
+				<div id="EnghackW" class="tab-pane fade">
+					<div class="jumbotron">
+						<h3>Enghack Winter 2015</h3>
+					</div>
+				</div>
+				<div id="EnghackS" class="tab-pane fade">
+					<div class="jumbotron">
+						<h3>Enghack Summer 2015</h3>
+					</div>
+				</div>
+				<div id="WARG" class="tab-pane fade">
+					<div class="jumbotron">
+						<h3>University of Waterloo Aerial Robotics Group</h3>
+					</div>
+				</div>
+				<div id="DFTT" class="tab-pane fade">
+					<div class="jumbotron">
+						<h3>Don't Forget the Trash!</h3>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

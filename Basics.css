@@ -1,8 +1,11 @@
+/*background*/
 html {
     background: url("imgRes/SaigyouAyakashi.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
 }
-.container-fluid {
+
+body {
+    margin-bottom: 40px;
     background: url("imgRes/SaigyouAyakashi.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
 }
@@ -30,6 +33,15 @@ html {
 }
 
 /*personal styling*/
+
+
+.footer {
+    position: absolute;
+    height: 75px;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffff;
+}
 
 .mediaSize{
     width:70%;

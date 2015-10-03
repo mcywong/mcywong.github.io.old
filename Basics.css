@@ -42,7 +42,8 @@ body {
 
 .name {
     font-family: "Tangerine", serif;
-    font-size: 46px;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px #aaa;
     opacity: 1;
 }
 

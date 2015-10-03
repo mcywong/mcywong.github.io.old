@@ -34,17 +34,17 @@ body {
 
 /*personal styling*/
 
-.imgLink{
-    background-color: white;
-    opacity: 1;
-    padding: 3px;
+div.textFrame {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 15px;
+    opacity: 0.75;
 }
 
-.name {
-    font-family: "Tangerine", serif;
-    font-size: 50px;
-    text-shadow: 4px 4px 4px #aaa;
-    opacity: 1;
+div.textFrame p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
 }
 
 .footer {
@@ -56,20 +56,25 @@ body {
     opacity: 0.8;
 }
 
+.imgLink{
+    background-color: white;
+    opacity: 1;
+    padding: 3px;
+}
+
 .mediaSize{
     width:70%;
     margin:auto;
 }
 
-div.textFrame {
-    background-color: #ffffff;
-    border: 1px solid black;
-    border-radius: 15px;
-    opacity: 0.8;
+.name {
+    font-family: "Tangerine", serif;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px #aaa;
+    opacity: 1;
 }
 
-div.textFrame p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
+.title {
+    font-family: 'Ubuntu', sans-serif;
 }
+

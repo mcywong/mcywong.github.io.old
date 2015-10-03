@@ -1,13 +1,11 @@
-# Martin Wong's Landing page
+# Martin Wong's Website (In progress)
 
 This repository contains the project files that make up the personal webpage.
 
-Bootstrap v3.3.5 was used to aid css styling.
-
-Currently a skeleton example is being used to test the webpage's functionality along with Bootstrap
+Bootstrap v3.3.5 is used to aid css styling.
 
 Future goals and tasks
 
-* Complete the webpage with relevant information beyond skeleton form
+* Continue to add and fill project tabs with related content 
 
 * Include a java applet game integrated into the page

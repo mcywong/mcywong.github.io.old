@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Titles-->
-		<title>Martin's Work-in-progress Website</title>
+		<title>Martin Chun Yin Wong</title>
         <!-- Title Icon-->
         <link rel="shortcut icon" type="image/x-icon" href="imgRes/favicon.ico" />
         <!--Get CSS-->
@@ -21,45 +21,41 @@
 	</head>
 	<body>
         <div class="container-fluid">
+            <div class = "wrapper">
             <!--Pills-->
 			<ul class="nav nav-pills ">
 				<li class="active"><a data-toggle="pill" href="#home">Home</a></li>
                 <li class="dropdown white"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a data-toggle="pill" href="#DFTT">Don't Forget the Trash</a></li>
+                        <li><a data-toggle="pill" href="#DormCleaner">DormCleaner</a></li>
                         <li><a data-toggle="pill" href="#PhoneStand">Phone Stand Design</a></li>
                     </ul>
                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hackathons<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a data-toggle="pill" href="#EnghackW">Enghack Winter</a></li>
-                        <li><a data-toggle="pill" href="#EnghackS">Enghack Spring</a></li>
+                        <li><a data-toggle="pill" href="#NWHacks">NWHacks</a></li>
                     </ul>
-
-				<li><a data-toggle="pill" href="#WARG">UWARG</a></li>
-
 			</ul>
             <!--Content in Pills-->
 			<div class="tab-content">
 				<div id="home" class="tab-pane fade in active">
 					<div class="jumbotron title">
-                        <h2>Welcome</h2>
-                        <h4>to the memories of growing ideas and blooming projects</h4>
+                        <h2>Martin Wong</h2>
+                        <h4>Mechatronics Engineering at the University of Waterloo</h4>
 					</div>
 					<div class="row">
 						<div class="col-md-4 textFrame">
                             <h3>About Myself</h3>
                             <p>
-                                My name is Martin Wong and I am a 2nd year Mechatronics Engineering Student at the University of Waterloo.
+                                My name is Martin Wong and I am a 2B Mechatronics Engineering Student at the University of Waterloo.
                                 I enjoy both software and hardware development and design. New technologies fascinate me whether it is new wearable creations
-                                or breakthroughs in machine intelligence. Browse the tabs above to check out the projects I have done or visit my Linkedin or Github below.
-                                <br> <br> *This website is a work-in-progress so please excuse the blank fields and empty pages
-                                <br> <br> Next Step: Projects- Phone Stand Design Page near completion, finish Skills/Hobbies
+                                or breakthroughs in machine intelligence and virtual reality. In my free time I enjoy attending hackathons and playing badminton.
                             </p>
                         </div>
-						<div class="col-md-4 textFrame">
-                            <h3>Skills</h3>
-                        </div>
-						<div class="col-md-4 textFrame"><h3>Hobbies</h3></div>
+						<!--<div class="col-md-4 textFrame">-->
+                            <!--<h3>Skills</h3>-->
+                        <!--</div>-->
+						<!--<div class="col-md-4 textFrame"><h3>Hobbies</h3></div>-->
 					</div>
 				</div>
                 <!--Hackathons-->
@@ -69,21 +65,46 @@
 					</div>
                     <iframe width="854" height="480" src="https://www.youtube.com/embed/-VGz8HzyUug" frameborder="0" allowfullscreen></iframe>
 				</div>
-				<div id="EnghackS" class="tab-pane fade">
+				<div id="NWHacks" class="tab-pane fade">
 					<div class="jumbotron title">
-						<h2>Enghack Spring 2015</h2>
-					</div>
-				</div>
-                <!--WARG-->
-				<div id="WARG" class="tab-pane fade">
-					<div class="jumbotron title">
-						<h2>University of Waterloo Aerial Robotics Group</h2>
+						<h2>NWHacks</h2>
 					</div>
 				</div>
                 <!--Projects-->
-				<div id="DFTT" class="tab-pane fade">
+				<div id="DormCleaner" class="tab-pane fade">
                     <div class="jumbotron title">
-                        <h2>Don't Forget the Trash!</h2>
+                        <h2>DormCleaner</h2>
+                        <h4>An app to help remind busy university students to do their chores</h4>
+                    </div>
+                    <div class="col-md-8 col-lg-6">
+                        <div id="DormCleanerCarousel" class="carousel slide screenshotSize" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#DormCleanerCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#DormCleanerCarousel" data-slide-to="1"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="imgRes/DormCleanerV1.png" alt="Reminder to Sweep the Floor">
+                                </div>
+
+                                <div class="item">
+                                    <img src="imgRes/DormCleanerV1_2.png" alt="Task List">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#DormCleanerCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#DormCleanerCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div id="PhoneStand" class="tab-pane fade">
@@ -128,6 +149,8 @@
                     </div>
                 </div>
 			</div>
+                <div class = "push"></div>
+            </div>
 		</div>
         <!--bottom bar-->
         <footer class="footer">

@@ -1,13 +1,11 @@
 /*background*/
-html {
-    background: url("imgRes/SaigyouAyakashi.jpg") no-repeat center center fixed;
+html body{
+    background: url("imgRes/neutralBlue.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
 }
 
 body {
     margin-bottom: 70px;
-    background: url("imgRes/SaigyouAyakashi.jpg") no-repeat center center fixed;
-    background-size: 100% 100%;
 }
 
 /*bootstrap mods*/
@@ -47,9 +45,16 @@ div.textFrame p {
     color: #000000;
 }
 
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -7em;
+}
+.footer, .push {
+    height: 7em;
+}
+
 .footer {
     position: absolute;
-    height: 70px;
     width: 100%;
     bottom: 0;
     background-color: #ffffff;
@@ -67,9 +72,14 @@ div.textFrame p {
     margin:auto;
 }
 
+.screenshotSize{
+    width:35%;
+    margin:auto;
+}
+
 .name {
     font-family: "Tangerine", serif;
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 4px 4px 4px #aaa;
     opacity: 1;
 }
